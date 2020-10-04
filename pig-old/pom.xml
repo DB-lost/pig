@@ -94,6 +94,7 @@
 		<module>pig-common</module>
 		<module>pig-codegen</module>
 		<module>pig-monitor</module>
+		<module>follow-mode</module>
 	</modules>
 
 	<dependencyManagement>

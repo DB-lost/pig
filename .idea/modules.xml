@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/pig-old/follow-mode/follow-mode.iml" filepath="$PROJECT_DIR$/pig-old/follow-mode/follow-mode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pig-old/pig.iml" filepath="$PROJECT_DIR$/pig-old/pig.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pig-old/pig-auth/pig-auth.iml" filepath="$PROJECT_DIR$/pig-old/pig-auth/pig-auth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pig-old/pig-codegen/pig-codegen.iml" filepath="$PROJECT_DIR$/pig-old/pig-codegen/pig-codegen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pig-old/pig-common/pig-common.iml" filepath="$PROJECT_DIR$/pig-old/pig-common/pig-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pig-old/pig-common/pig-common-core/pig-common-core.iml" filepath="$PROJECT_DIR$/pig-old/pig-common/pig-common-core/pig-common-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pig-old/pig-common/pig-common-datasource/pig-common-datasource.iml" filepath="$PROJECT_DIR$/pig-old/pig-common/pig-common-datasource/pig-common-datasource.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pig-old/pig-common/pig-common-log/pig-common-log.iml" filepath="$PROJECT_DIR$/pig-old/pig-common/pig-common-log/pig-common-log.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pig-old/pig-common/pig-common-mybatis/pig-common-mybatis.iml" filepath="$PROJECT_DIR$/pig-old/pig-common/pig-common-mybatis/pig-common-mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pig-old/pig-common/pig-common-security/pig-common-security.iml" filepath="$PROJECT_DIR$/pig-old/pig-common/pig-common-security/pig-common-security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pig-old/pig-common/pig-common-swagger/pig-common-swagger.iml" filepath="$PROJECT_DIR$/pig-old/pig-common/pig-common-swagger/pig-common-swagger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pig-old/pig-gateway/pig-gateway.iml" filepath="$PROJECT_DIR$/pig-old/pig-gateway/pig-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pig-old/pig-monitor/pig-monitor.iml" filepath="$PROJECT_DIR$/pig-old/pig-monitor/pig-monitor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pig-old/pig-register/pig-register.iml" filepath="$PROJECT_DIR$/pig-old/pig-register/pig-register.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pig-old/pig-upms/pig-upms.iml" filepath="$PROJECT_DIR$/pig-old/pig-upms/pig-upms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pig-old/pig-upms/pig-upms-api/pig-upms-api.iml" filepath="$PROJECT_DIR$/pig-old/pig-upms/pig-upms-api/pig-upms-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pig-old/pig-upms/pig-upms-biz/pig-upms-biz.iml" filepath="$PROJECT_DIR$/pig-old/pig-upms/pig-upms-biz/pig-upms-biz.iml" />
+    </modules>
+  </component>
+</project>

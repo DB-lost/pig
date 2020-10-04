@@ -1,0 +1,13 @@
+spring:
+  cloud:
+    nacos:
+      config:
+        server-addr: 192.168.44.38:8848
+        file-extension: yaml
+        namespace: fec5ea40-b2e4-4496-a659-0236582e49c9
+        group: FOLLOW_MODE
+  application:
+    name: follow
+server:
+  port: 8001
+

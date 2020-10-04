@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="pig-common-datasource" />
+        <module name="pig-register" />
+        <module name="pig-gateway" />
+        <module name="pig-monitor" />
+        <module name="pig-common-core" />
+        <module name="pig-common-security" />
+        <module name="pig-upms-biz" />
+        <module name="pig-upms-api" />
+        <module name="pig-common-swagger" />
+        <module name="pig-common-log" />
+        <module name="follow-mode" />
+        <module name="pig-codegen" />
+        <module name="pig-common-mybatis" />
+        <module name="pig-auth" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="follow-mode" target="1.8" />
+      <module name="pig" target="1.8" />
+      <module name="pig-auth" target="1.8" />
+      <module name="pig-codegen" target="1.8" />
+      <module name="pig-common" target="1.8" />
+      <module name="pig-common-core" target="1.8" />
+      <module name="pig-common-datasource" target="1.8" />
+      <module name="pig-common-log" target="1.8" />
+      <module name="pig-common-mybatis" target="1.8" />
+      <module name="pig-common-security" target="1.8" />
+      <module name="pig-common-swagger" target="1.8" />
+      <module name="pig-gateway" target="1.8" />
+      <module name="pig-monitor" target="1.8" />
+      <module name="pig-register" target="1.8" />
+      <module name="pig-upms" target="1.8" />
+      <module name="pig-upms-api" target="1.8" />
+      <module name="pig-upms-biz" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
