@@ -12,13 +12,13 @@ public interface FollowService {
 
 	public R selectFollow(String userId,String type);
 
-	public R InsertFollow(String userId, String followId);
+	public R insertFollow(String userId, String followId);
 
 	public R deleteFollow(String userId, String followId);
 
 	public R selectBlacklist(String userId);
 
-	public R InsertBlacklist(String userId, String blacklistId);
+	public R insertBlacklist(String userId, String blacklistId);
 
-	public R DeleteFollow(String userId, String blacklistId);
+	public R deleteBlacklist(String userId, String blacklistId);
 }
