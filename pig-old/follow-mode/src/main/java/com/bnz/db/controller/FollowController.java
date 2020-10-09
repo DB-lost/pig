@@ -4,7 +4,13 @@ import com.bnz.db.service.FollowService;
 import com.pig4cloud.pig.common.core.util.R;
 import org.apache.rocketmq.spring.core.RocketMQTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.servlet.ModelAndView;
+
+import java.util.HashMap;
 
 /**
  * DESC:
@@ -35,7 +41,10 @@ public class FollowController {
 
 	@GetMapping("/insertFollow")
 	public R insertFollow(String userId, String followId) {
-		rocketMQTemplate.convertAndSend("article_system_topic","成功关注");
+		HashMap<String, Object> map = new HashMap<>();
+		map.put("userId",userId);
+		map.put("followId",followId);
+		rocketMQTemplate.convertAndSend("article_system_topic",map);
 		R r = followService.insertFollow(userId, followId);
 		return r.setCode(20000);
 	}
@@ -66,5 +75,21 @@ public class FollowController {
 		rocketMQTemplate.convertAndSend("article_system_topic","取出黑名单");
 		R r = followService.deleteBlacklist(userId, blacklistId);
 		return r.setCode(20000);
+	}
+
+	/**
+	 * WebSocket:单体应用中会用到，前后端分离中不需要
+	 * @return
+	 */
+//	@RequestMapping("/index")
+//	public String index() {
+//		return "index";
+//	}
+
+	@GetMapping("/webSocket")
+	public ModelAndView socket() {
+		ModelAndView mav=new ModelAndView("/webSocket");
+//        mav.addObject("userId", userId);
+		return mav;
 	}
 }

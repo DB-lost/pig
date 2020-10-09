@@ -19,7 +19,7 @@ class FollowModeApplicationTests {
 
 	@Test
 	void InsertFollow() {
-		R r = followService.insertFollow("4", "3");
+		R r = followService.insertFollow("1", "2");
 		System.out.println(r);
 	}
 

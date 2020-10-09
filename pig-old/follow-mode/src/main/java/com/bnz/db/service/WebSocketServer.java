@@ -1,4 +1,4 @@
-package com.bnz.db.websocket;
+package com.bnz.db.service;
 
 import org.springframework.stereotype.Component;
 
@@ -23,6 +23,7 @@ public class WebSocketServer {
 
 	//concurrent包的线程安全Set，用来存放每个客户端对应的WebSocketServer对象。
 	private static ConcurrentHashMap<String, Session> sessionPools = new ConcurrentHashMap<>();
+
 
 	//发送消息
 	public void sendMessage(Session session, String message) throws IOException {

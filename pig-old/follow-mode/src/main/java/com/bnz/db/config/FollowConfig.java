@@ -1,10 +1,7 @@
 package com.bnz.db.config;
 
 import org.mybatis.spring.annotation.MapperScan;
-import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.web.socket.config.annotation.EnableWebSocket;
-import org.springframework.web.socket.server.standard.ServerEndpointExporter;
 import springfox.documentation.service.ApiInfo;
 import springfox.documentation.service.Contact;
 import springfox.documentation.service.VendorExtension;
@@ -21,7 +18,6 @@ import java.util.ArrayList;
 @Configuration
 @MapperScan("com.bnz.db.mapper")
 @EnableSwagger2
-@EnableWebSocket
 public class FollowConfig  {
 	//配置文档信息
 	private ApiInfo apiInfo() {
@@ -35,17 +31,4 @@ public class FollowConfig  {
 			"许可连接",
 			new ArrayList<VendorExtension>());//扩展
 	}
-
-	/**
-	 * ServerEndpointExporter 作用
-	 *
-	 * 这个Bean会自动注册使用@ServerEndpoint注解声明的websocket endpoint
-	 *
-	 * @return
-	 */
-	@Bean
-	public ServerEndpointExporter serverEndpointExporter() {
-		return new ServerEndpointExporter();
-	}
-
 }
